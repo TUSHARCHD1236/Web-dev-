@@ -1,0 +1,17 @@
+div{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    /* background-color: blue; */
+    border: 10px solid blue;
+    border-top: 10px solid black;
+    animation-name:loader;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes loader{
+    from { transform: rotate(0deg)}
+    to { transform: rotate(360deg);
+    }
+}

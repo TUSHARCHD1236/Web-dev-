@@ -1,0 +1,790 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    border: border-box; 
+}
+#navbar{
+    height: 60px;
+    background-color: black;
+    color:white;
+    display: flex; 
+    align-items: center;
+}
+#logo{
+    border: 1px solid transparent;
+    width:75px;
+    margin-left: 10px;
+
+}
+#logo:hover{
+    border: 1px solid white;
+    height: 42px;
+}
+#deliver{
+    font-size: 12px;
+    padding-left: 12px;
+    padding-top: 5px;
+    color: #cccccc;
+}
+#location-dot{
+    display: flex;
+}
+#address_nav{
+    border: 1px solid transparent;
+    height:42px;
+    margin-left: 20px;
+}
+#address_nav:hover{
+    border: 1px solid white;
+}
+#india{
+    font-size: 14px;
+    color:#ffffff
+}
+#search_nav{
+    display: flex;
+    height: 35px;
+    border-radius: 30px; 
+}
+#select_nav{
+    margin-left: 55px;
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    border:none;
+    width: 60px;
+}
+#search_amazon{
+
+    width:750px;
+    padding-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+#magnify_nav{
+    background-color: orange;
+    color:black;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px;
+}
+#box4{
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    height: 40px;
+    
+}
+#box4:hover{
+    border: 1px solid white;
+}
+#flag_nav{
+    margin-left: 25px;
+}
+#en{
+    background-color: black;
+    color: white;
+}
+#drop_nav{
+    padding-left: 4px;
+    color: #e6e6e6;
+}
+#box5{
+    border: 1px solid transparent;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+#box5:hover{
+    border: 1px solid white;
+}
+#sign_nav{
+    margin-left: 20px;   
+}
+#hello_nav{
+    font-size: 12px;
+    color: #FFFFFF;
+}
+#accountdrop{
+    display: flex;
+}
+#accountlist_nav{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#box6{
+    border: 1px solid transparent;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box6:hover{
+    border: 1px solid white;
+}
+#returnorder_nav{
+    margin-left: 40px;
+}
+#return_nav{
+    font-size: 12px;
+    color:#ffffff
+}
+#order_nav{
+    font-size: 14px;
+    color:#ffffff;
+    font-weight: bold;
+}
+#box7{
+margin-left: 50px;
+border: 1px solid transparent;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#box7:hover{
+    border: 1px solid white;
+}
+#cart_nav i{ 
+    font-size: 30px;
+}
+#cart_nav{
+    font-weight: bold;
+}
+#secondnav{
+    height: 40px;
+    width: 100%vw;
+    background-color: #011a4f;
+}
+#secondnav{
+    color: white;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+#bar_secnav{
+ margin-left:20px;
+ padding-top: 10px;
+ padding-bottom: 5px;
+ border: 1px solid transparent;
+ height: 27px;
+ width: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#bar_secnav:hover{
+    border: 1px solid white;
+}
+#fresh{
+    margin-left: 20px;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    height: 27px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-width: 10px; */
+}
+#fresh:hover{
+    border: 1px solid white;
+    /* border-width: 10px; */
+}
+#amazon_mini{
+    margin-left:20px;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    height: 27px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#amazon_mini:hover{
+    border: 1px solid white;
+}
+#sell{
+    margin-left:20px;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    height: 27px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sell:hover{
+    border: 1px solid white;
+}
+#best_sellers{
+    margin-left:20px;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    height: 27px;
+    width:  100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#best_sellers:hover{
+    border: 1px solid white;
+}
+#mobiles{
+    margin-left:20px;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    height: 27px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mobiles:hover{
+    border: 1px solid white;
+}
+#today_deal{
+    margin-left:20px;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    height: 27px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#today_deal:hover{
+    border: 1px solid white;
+}
+#electronics{
+    margin-left:20px;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    height: 27px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#electronics:hover{
+    border: 1px solid white;
+}
+#customer_service{
+    margin-left:20px;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    height: 27px;
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#customer_service:hover{
+    border: 1px solid white;
+}
+#new_releases{
+    margin-left:20px;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    height: 27px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#new_releases:hover{
+    border: 1px solid white;
+}
+#prime{
+    border: 1px solid transparent;
+}
+#prime:hover{
+    border: 1px solid white;
+}
+#herosection{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/Beauty/GW/Jan/unrecatf/citi/Skincare-PCgf._CB584595621_.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+#left_arrow{
+    background-position: 0 0;
+    position: relative;
+    top: 20%;
+}
+#left_arrow i{
+    font-size: 70px;
+    /* font-weight: lighter; */
+}
+#right_arrow{
+background-position: -34px 0;
+position: relative;
+top:20%;
+left:93.5%
+}
+#right_arrow i{
+    font-size:70px;
+}
+.shopping-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(222, 195, 155);
+    height: 1000px; 
+}
+.box{
+    height: 450px;
+    width: 350px;
+    /* border: 4px solid black;  */
+    background-color:white;
+    margin-top: 20px;
+}
+.Smartwatch{ 
+    background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/PC_CategoryCard_379X304_1._SY304_CB614835787_.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 200;
+}
+.content{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.content p{
+    padding-top: 10px;
+    text-decoration: none;
+}
+.content a{
+    text-decoration: none;
+}
+.headphones{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/MSO/CE/Unrec1/Boat_Desktop_Qc_1x._SY116_CB577919562_.jpg);
+    height: 200px;
+    width: 100px;
+}
+.box2_content{
+    display: flex;
+    flex-wrap: wrap;
+}
+#box_2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.boat{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/MSO/CE/Unrec1/Boat_Desktop_Qc_1x._SY116_CB577919562_.jpg);
+    height: 102px;
+    width: 160px;
+    margin-top: 20px;
+}
+.boult{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/MSO/CE/Unrec1/Boult_Desktop_Qc_1x._SY116_CB577919562_.jpg);
+    height: 102px;
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.boat p{
+    font-size: 12px;
+    padding-top: 105px;
+}
+.boult p{
+    font-size: 12px;
+    padding-top: 105px;
+}
+.noise{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/MSO/CE/Unrec1/Noise_Desktop_Qc_1x._SY116_CB577919562_.jpg);
+    height: 102px;
+    width: 160px;
+    margin-top: 60px;
+}
+.noise p{
+    font-size: 12px;
+    padding-top: 105px;
+}
+.zerobonics{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/MSO/CE/Unrec1/Zebronics_Desktop_Qc_1x._SY116_CB577919562_.jpg);
+    height: 102px;
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+.zerobonics p{
+    font-size: 12px;
+    padding-top: 105px;
+}
+.box2_content a{
+    margin-top: 85px;
+    text-decoration: none;
+}
+.clothing{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-1-186-116._SY116_CB636110853_.jpg);
+    height: 102px;
+    width: 160px;
+    /* margin-left: 2px; */
+    margin-top: 20px
+}
+.clothing p{
+    font-size: 12px;
+    padding-top: 105px;
+}
+.footwear{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-2-186-116._SY116_CB636110853_.jpg);
+    height: 102px;
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.footwear p{
+    font-size: 12px;
+    padding-top: 105px;
+}
+.watch{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-3-186-116._SY116_CB636110853_.jpg);
+    height: 102px;
+    width: 160px;
+    margin-top: 60px;
+}
+.watch p{
+    font-size: 12px; 
+    padding-top: 105px;
+}
+.bags{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-4-186-116._SY116_CB636110853_.jpg);
+    height: 102px;
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+.bags p{
+    font-size: 12px;
+    padding-top: 105px;
+}
+.makeup{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img19/Beauty/GW/desktop/Make-up-CC_desktop_1x._SY304_CB466075850_.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 200;
+    padding: 25px;
+}
+#see_more{
+    margin-top: 20px
+}
+
+.bucket{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_4._SY116_CB600489960_.jpg);
+    height: 102px;
+    width: 160px;
+    /* margin-left: 2px; */
+    margin-top: 20px
+}
+.bucket p{
+    font-size: 12px;
+    padding-top: 105px;
+}
+.paste{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_3._SY116_CB600489960_.jpg);
+    height: 102px;
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.paste p{
+    font-size: 12px;
+    padding-top: 105px;
+}
+.scroo{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_7._SY116_CB600489960_.jpg);
+    height: 102px;
+    width: 160px;
+    margin-top: 60px;
+}
+.scroo p{
+    font-size: 12px;
+    padding-top: 105px;
+}
+.board{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_5._SY116_CB600489960_.jpg);
+    height: 102px;
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+.board p{
+    font-size: 12px;
+    padding-top: 105px; 
+}
+.kitchen{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/PC_QC_186x116_1_WK04._SY116_CB583034021_.jpg);
+    height: 102px;
+    width: 160px;
+    margin-top: 20px;
+}
+.kitchen p{
+    font-size: 12px;
+    padding-top: 105px;
+}
+.pikles{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/PC_QC_186x116__Kitchen_WK52_001._SY116_CB586255880_.jpg);
+    height: 102px;
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.pikles p{
+    font-size: 12px;
+    padding-top: 105px;
+}
+.pan{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/PC_QC_186x116_1_Kitchen_Week52_3._SY116_CB571434851_.jpg);
+    height: 102px;
+    width: 160px;
+    margin-top: 60px;
+}
+.pan p{
+    font-size: 12px;
+    padding-top: 105px;
+}
+.racks{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/PC_QC_186x116_1_Kitchen_Week52_2._SY116_CB571434851_.jpg);
+    height: 102px;
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+.racks p{
+    font-size: 12px;
+    padding-top: 105px;
+}
+.box7_content{
+    background-color: white;
+    height: 450px;
+    width: 350px;
+    margin-top: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.pc h2{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.cpu{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 200;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    /* margin-top: 200px; */
+}
+.pc p{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.sign_div{
+    background-color: white;
+    height: 200px;
+    width:350px;
+    margin-top: 20px;
+}
+.sign2_div{
+    background-color: yellow;
+    height: 30px;
+    width: 75%;
+    margin-left: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 20px;
+}
+.sign_div h2{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.sign_div p{
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+}
+.mens_clothing{
+    background-color: white;
+    height: 285px;
+    width: 95%;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.cloths{
+    display: flex;
+    justify-content: space-evenly
+}
+.mens1{
+    height: 400px;
+    background-color: rgb(220, 227, 228);
+}
+.mens{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cloth_1{
+    background-image: url(https://m.media-amazon.com/images/I/51agrAsQxxL._AC_SY200_.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 116px;
+}
+.cloth_2{
+    background-image: url(https://m.media-amazon.com/images/I/61VdudS+wBL._AC_SY200_.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 116px;
+}
+.cloth_3{
+    background-image: url(https://m.media-amazon.com/images/I/71-0-6qzwxL._AC_SY200_.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 116px;
+}
+.cloth_4{
+    background-image: url(https://m.media-amazon.com/images/I/71cQVQcdp6L._AC_SY200_.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 116px;
+}
+.cloth_5{
+    background-image: url(https://m.media-amazon.com/images/I/71TPaxOCA-L._AC_SY200_.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 116px;
+}
+.cloth_6{
+    background-image: url(https://m.media-amazon.com/images/I/617UyikiUsL._AC_SY200_.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 116px;
+}
+.cloth_7{
+    background-image: url(https://m.media-amazon.com/images/I/81tuSndPd1L._AC_SY200_.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 116px;
+}
+.cloth_8{
+    background-image: url(https://m.media-amazon.com/images/I/614XpiTNZoL._AC_SY200_.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 116px;
+}
+.cloth_9{
+    background-image: url(https://m.media-amazon.com/images/I/61n8G12sUML._AC_SY200_.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 116px;
+}
+.footer_sign{
+background-color: rgba(245, 115, 9, 0.902);
+    height: 40px;
+    width: 25%;
+    margin-left: 400px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#000000;
+    
+}
+.centre_sign{
+    /* height: 60px; */
+    display: flex; 
+    justify-content: center; 
+    align-content: center; 
+}
+.new_customer{
+    height: 100px;
+    width: 100%;
+     padding-left: 200px; 
+}
+.new_customer p{
+    padding-left: 450px;
+    padding-top: 20px;
+}
+.new_customer b{
+    padding-left: 480px;
+}
+.footer_panel1{
+    width: 100%;
+    height: 49px;
+    background-color: #37475a;
+    color: white;
+    text-align: center;
+    padding-top: 23px;
+    margin-top: 20px;
+}
+.footer_panel2{
+    background-color: #222f3d;
+    height: 300px;
+    color: white;
+     display: flex;
+     justify-content: space-evenly; 
+     padding-top: 50px;
+     /* padding-bottom: 50px; */    
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+}
+.amazone_footer{
+    background-color: #222f3d;
+    height: 200px;
+    /* padding-top: 20px; */
+    /* padding-left: 650px; */
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.amazon_pic{
+    height: 150px;
+    /* padding-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.country{
+    display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   align-items: center;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.foot_panel3{
+    background-color: #0f1111;
+    height: 350px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    /* text-align: center; */
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.ul a{
+    display: block;
+    margin-top: 10px;
+}
+.page1{
+    display: flex;
+    justify-content: space-evenly;
+}

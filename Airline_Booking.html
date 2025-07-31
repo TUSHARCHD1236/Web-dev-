@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratice-HTML</title>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    background: linear-gradient(to right top, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .container {
+    perspective: 1200px;
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .box {
+    background: rgba(234, 228, 228, 0.1);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border-radius: 20px;
+    padding: 40px 30px;
+    color: #e8e1e1;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+  }
+
+  .container:hover .box {
+    transform: rotateY(8deg) rotateX(4deg);
+  }
+
+  .box h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #2a9ce9;
+  }
+
+  label {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(215, 221, 223, 0.2);
+    color: rgb(3, 0, 0);
+    outline: none;
+    font-size: 14px;
+    transition: background 0.3s ease;
+  }
+
+  input::placeholder {
+    color: #000000;
+  }
+
+  input:focus,
+  select:focus {
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .ticket-options {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 15px;
+  }     
+
+  .ticket-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    transform: scale(1.2);
+    accent-color: #302e2a;
+  }
+
+  .box select {
+    margin-top: 10px;
+  }
+
+  .checkbox-group {
+    margin-top: 15px;
+  }
+
+  .submit-btn {
+    margin-top: 25px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    border: none;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .submit-btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 15px rgba(0, 200, 255, 0.6);
+  }
+
+  @media (max-width: 480px) {
+    .box {
+      padding: 30px 20px;
+    }
+
+    .submit-btn {
+      font-size: 14px;
+    }
+  }
+</style>
+
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <h2>Welcome to the Ticket booking Counter</h2>
+            <form>
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" placeholder="Enter your name here" required>
+            <label for="ph">Phone:</label>
+            <input type="tel" id="ph" placeholder="Enter the Phone number" required>
+            <label for="em">Email:</label>
+            <input type="email" id="em" placeholder="Enter your Email here" required>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" placeholder="Enter your password here" required>
+            <br>
+            Select your Ticket
+            <br>
+            <label for="ticket">
+                <input type="radio" value="Basic" name="tic" id="ticket">Basic
+            </label>
+            <label for="ticket1">
+                <input type="radio" value="Basic" name="tic" id="ticket1">Silver
+            </label>
+            <label for="ticket2">
+                <input type="radio" value="Basic" name="tic" id="ticket2">Gold
+            </label>
+            <label for="ticket3">
+                <input type="radio" value="Basic" name="tic" id="ticket3">Premium
+            </label>
+            <br>
+            Select the Airline:<select name="airline">
+            <option value="" disabled selected>Select Airline</option>
+            <option value="Indigo Airways" >Indigo Airways</option>
+            <option value="Qatar Airways">Qatar Airways</option>
+            <option value="Air India Airways">Air India Airways</option>
+            <option value="Eithed Airways">Eithed Airways</option>
+            </select>
+            <br>
+            Select the arriving station:<select name="arr">
+            <option value="" disabled selected>Select Arriving Station</option>
+            <option value="Chandigarh" >Chandigarh</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Benguluru">Benguluru</option>
+            </select>
+            <br>
+            Select the Destination station:<select name="des">
+            <option value="" disabled selected>Select Arriving Station</option>
+            <option value="Chandigarh" >Chandigarh</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Benguluru">Benguluru</option>
+            </select>
+            <br>
+            <label for="Id">
+            <input type="checkbox" id="Id" > I agree the Terms & Condition</label>
+            <button class="submit-btn">Book Ticket</button>
+            </form>
+        </div>
+    </div>  
+</body>
+</html>
